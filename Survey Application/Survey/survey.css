@@ -1,0 +1,126 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.topnav {
+  overflow: hidden; /* Ensure links stay within container */
+  background-color: #333;
+  padding: 10px 15px;
+  position: fixed; /* Fix navigation at the top */
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 350px; /* Adjusted width for better balance */
+  margin: 0 auto; /* Centered form horizontally */
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="date"],
+textarea,
+select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+textarea {
+  height: 150px;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px; /* Wider button */
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Additional styling for readability and user experience */
+#surveyForm {
+  text-align: left; /* Align elements to the left */
+}
+
+#secret,
+#crush,
+#dream,
+#fear {
+  font-style: italic; /* Use italics for personal questions */
+}
+
+/* Accessibility improvements */
+input[required] {
+  border-color: #4caf50; /* Visually indicate required fields */
+}
+
+/* Responsiveness (optional) */
+@media only screen and (max-width: 768px) {
+  form {
+    width: 90%; /* Adjust width for smaller screens */
+  }
+}
+
+/* first css file
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+  }
+
+  button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+*/

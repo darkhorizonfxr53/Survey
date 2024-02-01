@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="survey.css">
+  <script src="survey.js"></script>
+  <title>Survey Application</title>
+  <style>
+  </style>
+</head>
+<body>
+  <div class="topnav">
+    <a class="active" href="">Survey</a>
+    <a href="../index/index.html">Index</a>
+
+  </div>
+  <form id="surveyForm">
+    <label for="name">Name:</label>
+    <input type="text" id="name" required>
+
+    <label for="surname">Surname:</label>
+    <input type="text" id="surname" required>
+
+    <label for="initials">Initials:</label>
+    <input type="text" id="initials" required>
+
+    <label for="dob">Date of Birth:</label>
+    <input type="date" id="dob" required>
+
+    <label for="gender">Gender:</label>
+    <select id="gender" required>
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+      <option value="other">Other</option>
+    </select>
+
+    <label for="race">Race or ethnicity:</label>
+    <input type="text" id="race" required>
+
+    <label for="address">Address:</label>
+    <textarea id="address" required></textarea>
+
+    <label for="married">Marital status:</label>
+    <input type="text" id="married" required>
+
+    <label for="secret">Biggest Secret:</label>
+    <input type="text" id="secret" required>
+
+    <label for="crush">First Crush:</label>
+    <input type="text" id="crush" required>
+
+    <label for="dream">Childhood Dream:</label>
+    <input type="text" id="dream" required>
+
+    <label for="fear">Biggest Fear:</label>
+    <input type="text" id="fear" required>
+
+    <label for="politics">Voting:</label>
+    <input type="text" id="politics" required>
+    <button type="button" onclick="saveData()">Submit</button>
+  </form>
+  <img src="../images/good bye.jpg" alt="Good-bye">
+  <script>
+    
+  </script>
+</body>
+</html>
